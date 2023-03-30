@@ -1,3 +1,10 @@
+/* It is demo of how query params work
+
+Input - http://localhost:3000/?name=rama
+output - Hello, rama!
+*/
+
+
 const http = require('http');
 const url = require('url');
 
@@ -15,3 +22,4 @@ const port = 3001;
 server.listen(port, () =>{
     console.log(`Server running at http://localhost:${port} `);
 });
+
